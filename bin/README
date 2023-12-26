@@ -1,0 +1,8 @@
+This binary is compiled from the source code in https://github.com/Zunawe/md5-c.git
+
+It's compiled using:
+
+1) gcc -Wall -Wextra -O0 -no-pie -o md5-O0 md5.c main.c
+1) gcc -Wall -Wextra -O2 -no-pie -o md5-O2 md5.c main.c
+1) gcc -Wall -Wextra -s -O0 -no-pie -o md5-O0-s md5.c main.c
+1) gcc -Wall -Wextra -s -O2 -no-pie -o md5-O2-s md5.c main.c

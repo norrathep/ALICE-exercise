@@ -1,0 +1,9 @@
+Your goal is to write a script that can output a function that uses a specific set of constants.
+In this case, we will target for MD5 constants: [0x67452301, 0xefcdab89, 0x98badcfe, 0x10325476]
+If you look deeper into the source code used to compile the binary tests in bin folder, 
+you will see that md5Init function uses all these constants and thus your script should output the starting address of this function.
+
+That is for a specific test input your code should output the following:
+
+* md5-O0 and m5-O0-s: your script should output 0x401212
+* md5-O2 and md5-O2-s: it should output 0x4012e0
